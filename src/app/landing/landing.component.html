@@ -1,13 +1,15 @@
-<!-- landing-page.component.html -->
-<header>
-    <div class="logo-container">
-        <img src="../../app/assets/logo.png" alt="School Logo" class="logo">
-    </div>
-</header>
 
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  
 <section class="hero">
     <div class="card">
-        <img src="../../assets/logo.png" alt="School Logo" class="card-logo">
+            
+    <!-- Logo -->
+<div class="logo-container">
+    <img src="https://th.bing.com/th/id/OIP.g9jB_KXtknJiM7iZ2IIjNQHaHn?rs=1&pid=ImgDetMain" alt="SJNHS Logo" class="school-logo">
+  </div>
         <h1>SAN JOSE NATIONAL HIGH SCHOOL</h1>
         <p class="subtitle">Student Online Portal</p>
         <select class="dropdown">
@@ -15,6 +17,6 @@
             <option>Teacher</option>
             <option>Admin</option>
         </select>
-        <button class="btn">Next</button>
+        <button class="btn" (click)="goToSignup()">Next</button>  <!-- On click, navigate to signup -->
     </div>
 </section>

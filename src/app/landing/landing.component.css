@@ -52,3 +52,24 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+/* Logo Container */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Adjust Logo Size */
+  .school-logo {
+    width: 120px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    max-height: 120px; /* Prevent excessive height */
+  }
+  
+/* Title Styles */
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
